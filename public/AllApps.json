@@ -1,0 +1,578 @@
+[
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=BrainBoost&backgroundColor=f59e0b,3b82f6",
+    "title": "BrainBoost",
+    "companyName": "Hero Apps",
+    "id": 21,
+    "description": "Daily brain exercises and cognitive challenges.",
+    "size": 25,
+    "reviews": 850,
+    "ratingAvg": 4.4,
+    "downloads": 38000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 360 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=HealthyEats&backgroundColor=16a34a,22c55e",
+    "title": "HealthyEats",
+    "companyName": "Hero Apps",
+    "id": 22,
+    "description": "Track meals, calories, and nutrition effortlessly.",
+    "size": 28,
+    "reviews": 1100,
+    "ratingAvg": 4.5,
+    "downloads": 47000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 475 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=GoalTracker&backgroundColor=ef4444,f97316",
+    "title": "GoalTracker",
+    "companyName": "Hero Apps",
+    "id": 23,
+    "description": "Set and track personal and professional goals.",
+    "size": 32,
+    "reviews": 1250,
+    "ratingAvg": 4.6,
+    "downloads": 52000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 480 },
+      { "name": "5 star", "count": 565 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=MusicMood&backgroundColor=f472b6,9333ea",
+    "title": "MusicMood",
+    "companyName": "Hero Apps",
+    "id": 24,
+    "description": "Personalized music playlists based on your mood.",
+    "size": 30,
+    "reviews": 980,
+    "ratingAvg": 4.4,
+    "downloads": 41000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 330 },
+      { "name": "5 star", "count": 460 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=QuickScan&backgroundColor=10b981,fbbf24",
+    "title": "QuickScan",
+    "companyName": "Hero Apps",
+    "id": 25,
+    "description": "Scan documents and QR codes quickly and securely.",
+    "size": 22,
+    "reviews": 870,
+    "ratingAvg": 4.3,
+    "downloads": 36000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 375 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=SleepWell&backgroundColor=38bdf8,6366f1",
+    "title": "SleepWell",
+    "companyName": "Hero Apps",
+    "id": 26,
+    "description": "Improve sleep quality with guided sleep programs.",
+    "size": 28,
+    "reviews": 900,
+    "ratingAvg": 4.4,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 385 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=TravelBuddy&backgroundColor=9333ea,ec4899",
+    "title": "TravelBuddy",
+    "companyName": "Hero Apps",
+    "id": 27,
+    "description": "Discover attractions, restaurants, and local events while traveling.",
+    "size": 34,
+    "reviews": 1150,
+    "ratingAvg": 4.5,
+    "downloads": 53000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 525 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=PhotoFix&backgroundColor=facc15,f97316",
+    "title": "PhotoFix",
+    "companyName": "Hero Apps",
+    "id": 28,
+    "description": "Advanced photo retouching and filter tools.",
+    "size": 40,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1110 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=TaskScheduler&backgroundColor=0ea5e9,22c55e",
+    "title": "TaskScheduler",
+    "companyName": "Hero Apps",
+    "id": 29,
+    "description": "Plan, schedule, and track tasks efficiently.",
+    "size": 27,
+    "reviews": 940,
+    "ratingAvg": 4.4,
+    "downloads": 42000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 330 },
+      { "name": "5 star", "count": 425 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=CodeMaster&backgroundColor=111827,3b82f6",
+    "title": "CodeMaster",
+    "companyName": "Hero Apps",
+    "id": 30,
+    "description": "Learn, practice, and master programming languages.",
+    "size": 38,
+    "reviews": 1650,
+    "ratingAvg": 4.7,
+    "downloads": 78000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 980 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=MindMap&backgroundColor=f472b6,ec4899",
+    "title": "MindMap",
+    "companyName": "Hero Apps",
+    "id": 31,
+    "description": "Visualize ideas and projects with intuitive mind maps.",
+    "size": 26,
+    "reviews": 880,
+    "ratingAvg": 4.4,
+    "downloads": 39000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 365 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=LearnMate&backgroundColor=2563eb,6366f1",
+    "title": "LearnMate",
+    "companyName": "Hero Apps",
+    "id": 32,
+    "description": "Interactive lessons and quizzes for skill improvement.",
+    "size": 28,
+    "reviews": 970,
+    "ratingAvg": 4.5,
+    "downloads": 43000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 330 },
+      { "name": "5 star", "count": 465 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=TaskMaster&backgroundColor=2563eb,22c55e",
+    "title": "TaskMaster",
+    "companyName": "Hero Apps",
+    "id": 1,
+    "description": "A powerful task management app to organize your daily work and boost productivity.",
+    "size": 28,
+    "reviews": 1240,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=FocusFlow&backgroundColor=7c3aed,06b6d4",
+    "title": "FocusFlow",
+    "companyName": "Hero Apps",
+    "id": 2,
+    "description": "A focus timer and productivity booster using the Pomodoro technique.",
+    "size": 22,
+    "reviews": 980,
+    "ratingAvg": 4.4,
+    "downloads": 42000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 440 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=NoteNest&backgroundColor=f97316,f43f5e",
+    "title": "NoteNest",
+    "companyName": "Hero Apps",
+    "id": 3,
+    "description": "Create, organize, and sync notes across all your devices.",
+    "size": 18,
+    "reviews": 860,
+    "ratingAvg": 4.3,
+    "downloads": 38000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 360 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=TravelMate&backgroundColor=0ea5e9,22c55e",
+    "title": "TravelMate",
+    "companyName": "Hero Apps",
+    "id": 4,
+    "description": "Plan trips, track itineraries, and explore destinations easily.",
+    "size": 35,
+    "reviews": 1400,
+    "ratingAvg": 4.6,
+    "downloads": 65000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 645 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=CodeHelper&backgroundColor=111827,3b82f6",
+    "title": "CodeHelper",
+    "companyName": "Hero Apps",
+    "id": 5,
+    "description": "Coding assistant for developers with snippets and debugging help.",
+    "size": 40,
+    "reviews": 1700,
+    "ratingAvg": 4.7,
+    "downloads": 72000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1040 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=DevNotes&backgroundColor=06b6d4,2563eb",
+    "title": "DevNotes",
+    "companyName": "Hero Apps",
+    "id": 6,
+    "description": "A note-taking tool specially designed for programmers.",
+    "size": 24,
+    "reviews": 900,
+    "ratingAvg": 4.2,
+    "downloads": 36000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 365 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=MindRelax&backgroundColor=9333ea,ec4899",
+    "title": "MindRelax",
+    "companyName": "Hero Apps",
+    "id": 7,
+    "description": "Meditation and relaxation app for stress-free living.",
+    "size": 30,
+    "reviews": 1100,
+    "ratingAvg": 4.5,
+    "downloads": 48000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 380 },
+      { "name": "5 star", "count": 490 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=FitTrack&backgroundColor=ef4444,f97316",
+    "title": "FitTrack",
+    "companyName": "Hero Apps",
+    "id": 8,
+    "description": "Track your workouts, calories, and health goals.",
+    "size": 32,
+    "reviews": 1600,
+    "ratingAvg": 4.6,
+    "downloads": 69000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 850 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=PhotoMagic&backgroundColor=ec4899,9333ea",
+    "title": "PhotoMagic",
+    "companyName": "Hero Apps",
+    "id": 9,
+    "description": "Easy photo editing with powerful filters and tools.",
+    "size": 45,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 650 },
+      { "name": "5 star", "count": 1160 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=WeatherNow&backgroundColor=38bdf8,22c55e",
+    "title": "WeatherNow",
+    "companyName": "Hero Apps",
+    "id": 10,
+    "description": "Accurate weather forecasts with beautiful visualizations.",
+    "size": 20,
+    "reviews": 800,
+    "ratingAvg": 4.3,
+    "downloads": 35000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 305 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=StudySmart&backgroundColor=facc15,f472b6",
+    "title": "StudySmart",
+    "companyName": "Hero Apps",
+    "id": 11,
+    "description": "Smart study planner for students.",
+    "size": 26,
+    "reviews": 950,
+    "ratingAvg": 4.4,
+    "downloads": 41000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 435 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=DailyJournal&backgroundColor=10b981,fbbf24",
+    "title": "DailyJournal",
+    "companyName": "Hero Apps",
+    "id": 12,
+    "description": "Secure digital diary for everyday writing.",
+    "size": 19,
+    "reviews": 730,
+    "ratingAvg": 4.2,
+    "downloads": 29000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 315 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=NewsFlash&backgroundColor=f43f5e,6366f1",
+    "title": "NewsFlash",
+    "companyName": "Hero Apps",
+    "id": 13,
+    "description": "Latest global news updates in one place.",
+    "size": 21,
+    "reviews": 1200,
+    "ratingAvg": 4.4,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 585 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=HabitHero&backgroundColor=f59e0b,ec4899",
+    "title": "HabitHero",
+    "companyName": "Hero Apps",
+    "id": 14,
+    "description": "Build and track positive daily habits.",
+    "size": 23,
+    "reviews": 880,
+    "ratingAvg": 4.3,
+    "downloads": 36000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 385 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=SnapEdit&backgroundColor=6366f1,f43f5e",
+    "title": "SnapEdit",
+    "companyName": "Hero Apps",
+    "id": 15,
+    "description": "Quick photo editing with pro-level filters.",
+    "size": 38,
+    "reviews": 1600,
+    "ratingAvg": 4.6,
+    "downloads": 72000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 855 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=RunTracker&backgroundColor=22c55e,16a34a",
+    "title": "RunTracker",
+    "companyName": "Hero Apps",
+    "id": 16,
+    "description": "Track running speed, distance, and calories burned.",
+    "size": 34,
+    "reviews": 1300,
+    "ratingAvg": 4.5,
+    "downloads": 58000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 430 },
+      { "name": "5 star", "count": 665 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=CodePractice&backgroundColor=facc15,f97316",
+    "title": "CodePractice",
+    "companyName": "Hero Apps",
+    "id": 17,
+    "description": "Practice coding challenges and algorithms.",
+    "size": 42,
+    "reviews": 1900,
+    "ratingAvg": 4.7,
+    "downloads": 80000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1230 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=TripPlanner&backgroundColor=3b82f6,06b6d4",
+    "title": "TripPlanner",
+    "companyName": "Hero Apps",
+    "id": 18,
+    "description": "Organize trips and travel plans easily.",
+    "size": 36,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 54000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 410 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=LearnQuick&backgroundColor=f472b6,ec4899",
+    "title": "LearnQuick",
+    "companyName": "Hero Apps",
+    "id": 19,
+    "description": "Micro-learning platform for quick skill acquisition.",
+    "size": 27,
+    "reviews": 870,
+    "ratingAvg": 4.4,
+    "downloads": 39000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 365 }
+    ]
+  },
+  {
+    "image": "https://api.dicebear.com/8.x/icons/png?seed=PlanPro&backgroundColor=2563eb,6366f1",
+    "title": "PlanPro",
+    "companyName": "Hero Apps",
+    "id": 20,
+    "description": "Professional planner for goals and project management.",
+    "size": 29,
+    "reviews": 990,
+    "ratingAvg": 4.5,
+    "downloads": 44000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 330 },
+      { "name": "5 star", "count": 465 }
+    ]
+  }
+]
