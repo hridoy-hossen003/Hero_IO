@@ -30,7 +30,12 @@ const router = createBrowserRouter([
       },
       {
         path: "apps/:id",
-        loader: () => axios.get("AllApps.json").then((res) => res.data),
+        loader: () =>
+          axios
+            .get(
+              "https://raw.githubusercontent.com/hridoy-hossen003/Hero_IO/refs/heads/main/appsdata",
+            )
+            .then((res) => res.data),
         Component: AppDetails,
       },
       {},

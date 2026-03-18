@@ -40,3 +40,23 @@ const AppsContainer = ({ data }) => {
 };
 
 export default AppsContainer;
+
+
+// {
+//     "image": "https://api.dicebear.com/8.x/icons/png?seed=TaskMaster&backgroundColor=2563eb,22c55e",
+//     "title": "TaskMaster",
+//     "companyName": "Hero Apps",
+//     "id": 1,
+//     "description": "A powerful task management app to organize your daily work and boost productivity.",
+//     "size": 28,
+//     "reviews": 1240,
+//     "ratingAvg": 4.5,
+//     "downloads": 50000,
+//     "ratings": [
+//       { "name": "1 star", "count": 40 },
+//       { "name": "2 star", "count": 60 },
+//       { "name": "3 star", "count": 120 },
+//       { "name": "4 star", "count": 420 },
+//       { "name": "5 star", "count": 600 }
+//     ]
+//   },
