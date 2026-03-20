@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from '../assets/logo.png'
-import { NavLink } from 'react-router';
+import { NavLink, useNavigate } from 'react-router';
 import './Navbar.css'
-import { Github } from 'lucide-react';
+
 const Navbar = () => {
+const navigate = useNavigate()
      const btn = (
        <>
-         <a className="btn   text-white bg-linear-to-r from-[#632EE3]  to-[#9F62F2]  text-lg font-semibold">
+         <a target='_black' href="https://github.com/hridoy-hossen003" className="btn   text-white bg-linear-to-r from-[#632EE3]  to-[#9F62F2]  text-lg font-semibold">
            <i class="fa-brands fa-github"></i>
            Continue
          </a>
