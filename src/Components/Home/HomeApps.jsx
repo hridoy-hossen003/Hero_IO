@@ -9,7 +9,7 @@ const HomeApps = () => {
       useEffect(() => {
         axios.get("Apps.json").then((data) => setApps(data.data));
       }, []);
-      console.log(apps);
+
     return (
       <div className="grid justify-center text-center space-y-6 py-20">
         <h2 className="text-5xl font-bold">Trending Apps</h2>

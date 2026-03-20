@@ -13,7 +13,7 @@ const AppsContainer = ({ data }) => {
     }
 
   return (
-    <div onClick={()=> navigation(id)} className="card bg-base-100  shadow-sm p-2">
+    <div onClick={()=> navigation(id)} className="card bg-base-100 cursor-pointer  shadow-sm p-2">
       <figure>
         <img className="w-96 rounded-lg" src={image} alt="Shoes" />
       </figure>
