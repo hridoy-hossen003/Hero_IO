@@ -1,13 +1,18 @@
 import React from 'react';
 import logo from '../assets/logo.png'
-import { NavLink, useNavigate } from 'react-router';
+import { NavLink, useNavigate} from 'react-router';
 import './Navbar.css'
 
 const Navbar = () => {
-const navigate = useNavigate()
+  const navigate = useNavigate()
+
      const btn = (
        <>
-         <a target='_black' href="https://github.com/hridoy-hossen003" className="btn   text-white bg-linear-to-r from-[#632EE3]  to-[#9F62F2]  text-lg font-semibold">
+         <a
+           target="_black"
+           href="https://github.com/hridoy-hossen003"
+           className="btn transition duration-600 hover:scale-105 hover:text-black  text-white bg-linear-to-r from-[#632EE3]  to-[#9F62F2]  text-lg font-semibold"
+         >
            <i class="fa-brands fa-github"></i>
            Continue
          </a>
@@ -15,23 +20,25 @@ const navigate = useNavigate()
      );
     const links = (
       <>
-        <li>
+        <li className="hover:transition  duration-600 hover:scale-110">
           <NavLink to={"/"}>
-            <i className="fa-regular fa-house"></i>Home
+            <i className="fa-regular fa-house"></i>
+            Home
           </NavLink>
         </li>
-        <li>
+        <li className="hover:transition  duration-600 hover:scale-110">
           <NavLink to={"/apps"}>
             <i className="fa-brands fa-app-store"></i>
             Apps
           </NavLink>
         </li>
-        <li>
+        <li className="hover:transition  duration-600 hover:scale-110">
           <NavLink to={"/installation"}>
             <i className="fa-brands fa-instalod"></i>
             Installation
           </NavLink>
         </li>
+        
         <li className="md:hidden">{btn}</li>
       </>
     );
@@ -71,7 +78,7 @@ const navigate = useNavigate()
               </ul>
             </div>
             <div className="">
-              <a className=" btn btn-ghost font-bold text-xl bg-linear-to-r from-[#632EE3100] via-[#632EE3] to-[#9F62F2]  bg-clip-text text-transparent">
+              <a onClick={() => navigate('/')} className=" btn btn-ghost font-bold text-xl bg-linear-to-r from-[#632EE3100] via-[#632EE3] to-[#9F62F2]  bg-clip-text text-transparent">
                 <img className="w-9" src={logo} alt="" />
                 HERO.IO
               </a>

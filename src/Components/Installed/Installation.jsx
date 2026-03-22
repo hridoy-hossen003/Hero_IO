@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
 import { getApps } from "../../Storage/LocalHose";
 import InstalledApp from "./InstalledApp";
-import warning from "../../assets/warning.jpg";
+import warning from '../../assets/warning.jpg'
+import dropbox from '../../assets/dropbox-removebg-preview.png'
 
 const Installation = () => {
    const [chengeDep, setChangeDep] = useState(true);
@@ -21,8 +22,11 @@ console.log(isEmpty);
 
   return (
     <div className="max-w-340 mx-auto">
-      <div className="text-center space-y-4 pt-20 pb-10">
-        <h2 className="text-5xl font-bold">Your Installed Apps</h2>
+      <div className="text-center space-y-4 pt-20 pb-6">
+        <h2 className="text-5xl font-bold flex justify-center items-center">
+          <span>Your Installed Apps</span>
+          <img className="w-16" src={dropbox} alt="" />
+        </h2>
         <p className="text-gray-500 text-lg">
           Explore All Trending Apps on the Market developed by us
         </p>
@@ -30,7 +34,7 @@ console.log(isEmpty);
 
       {isEmpty ? (
         <div>
-          <div className="flex flex-col py-6">
+          <div className="flex flex-col py-4">
             <div className="flex justify-center">
               <img src={warning} className="w-6/12" alt="" srcset="" />
             </div>

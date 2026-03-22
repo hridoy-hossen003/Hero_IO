@@ -1,4 +1,7 @@
  a.active{
  color:#632EE3;
  text-decoration: underline;
+ transition: all;
+ scale: 1.280;
+ transition-duration: 100;
 }

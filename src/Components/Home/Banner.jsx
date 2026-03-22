@@ -20,25 +20,29 @@ const Banner = () => {
           into digital experiences that truly make an impact.
         </p>
         <div className="flex justify-center mt-10 gap-4">
-          <button className="btn bg-transparent text-lg text-black border border-gray-400">
+          <button className="btn bg-transparent text-lg text-black border border-gray-400 hover:bg-[#6734E4] hover:text-white  hover:transition  duration-600 hover:scale-110 ease-in-out ">
             <i className="fa-brands fa-google-play"></i>
-            <Link to={"https://play.google.com/store/games?hl=en"}>
+            <Link
+              target="_black"
+              className=""
+              to={"https://play.google.com/store/games?hl=en"}
+            >
               Google Play
             </Link>
           </button>
 
-          <button className="btn bg-transparent text-lg text-black border border-gray-400">
+          <button className="btn bg-transparent text-lg text-black border border-gray-400 hover:bg-[#6734E4] hover:text-white hover:transition  duration-600 hover:scale-110 ease-in-out">
             <i className="fa-brands fa-app-store-ios"></i>
-            <Link to={"https://apps.apple.com/us/iphone/today"}>App Store</Link>
+            <Link target="_black" to={"https://apps.apple.com/us/iphone/today"}>
+              App Store
+            </Link>
           </button>
         </div>
       </div>
       <div className="mt-10 flex justify-center">
         <img src={bannerImg} alt="" />
       </div>
-      <div>
-      
-      </div>
+      <div></div>
     </div>
   );
 };

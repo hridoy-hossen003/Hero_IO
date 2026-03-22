@@ -11,7 +11,7 @@ const Root = () => {
         <div className='bg-[#D2D2D250]'>
           <div >
             <Outlet></Outlet>
-            <ToastContainer position='top-center' pauseOnHover='true'></ToastContainer>
+            <ToastContainer position='bottom-right' pauseOnHover='true'></ToastContainer>
           </div>
         </div>
 

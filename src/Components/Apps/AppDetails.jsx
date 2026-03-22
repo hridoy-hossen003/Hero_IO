@@ -13,6 +13,8 @@ import Description from "./Description";
 
 // Local Storage Utility
 import { addApps, getApps } from "../../Storage/LocalHose";
+import AppNotFound from "./AppNotFound";
+import AppError from "../ErrorPages/AppError";
 
 const AppDetails = () => {
   // ------------------------------
@@ -32,10 +34,10 @@ const AppDetails = () => {
   const datas = useLoaderData();
   const appData = datas.find((item) => item.id === id);
 
-  if (!appData) return <p>App data not found.</p>; // Safety check
+  if (!appData) return <AppError></AppError>; // Safety check
 
   const {
-    image,
+   image,
     title,
     companyName,
     description,
@@ -129,7 +131,7 @@ const AppDetails = () => {
               onClick={() => handleInstalled(id)}
               className={`btn btn-xs text-white ${click ? "bg-gray-300" : "bg-[#00D390]"} sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl`}
             >
-              Install Now ({size} MB)
+              {click ? "Installed" : ` Install Now (${size} MB)`}
             </button>
           </div>
         </div>

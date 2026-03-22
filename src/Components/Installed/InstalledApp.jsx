@@ -2,12 +2,14 @@ import React from "react";
 import downImg from "../../assets/icon-downloads.png";
 import rating from "../../assets/icon-ratings.png";
 import { removeApp } from "../../Storage/LocalHose";
+import { toast } from "react-toastify";
 
 const InstalledApp = ({ app, setChangeDep , chengeDep,}) => {
   const { id, image, title, size, ratingAvg, downloads } = app;
   const handleRemove = id => {
 removeApp(id)
 setChangeDep(!chengeDep)
+toast.error(`Uninstalled ${title}`)
   }
   return (
     <div>

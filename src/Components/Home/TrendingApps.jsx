@@ -13,12 +13,12 @@ const TrendingApps = ({ app }) => {
   };
 
   return (
-    <div onClick={()=>navigation(id)} className="card bg-base-100 cursor-pointer  shadow-sm p-2">
+    <div onClick={()=>navigation(id)} className="card bg-base-100 cursor-pointer transition duration-100 hover:scale-105 shadow-sm p-2">
       <figure>
         <img className="w-96 rounded-lg" src={image} alt="Shoes" />
       </figure>
       <div className=" text-left mt-2">
-        <h2 className="text-xl  font-semibold">Name: {title}</h2>
+        <h2 className="text-xl font-semibold">Name: {title}</h2>
         <div className="flex justify-between mt-2">
           <button className="btn btn-sm">
             <img className="w-4" src={downloadIcon} alt="" />
