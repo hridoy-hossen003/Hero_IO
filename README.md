@@ -1,16 +1,34 @@
-# React + Vite
+# Hero.IO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Hero.IO is a modern and responsive web application that allows users to explore, install, and manage different apps in one place.
 
-Currently, two official plugins are available:
+The application includes three main sections: **Home**, **Apps**, and **Installation**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- The **Home page** features a header with navigation, a statistics section (total downloads, reviews, and active apps), and a banner with buttons redirecting to app stores. It also showcases the top trending apps, where users can view the top 8 apps initially. When the user clicks the “See More” button, more apps (up to 20) are displayed, and the button dynamically changes into a **“More Apps”** button that redirects the user to the Apps page. Clicking on any app redirects to its detailed view.
 
-## React Compiler
+- The **App Details page** provides in-depth information about each app, including total downloads, ratings, and reviews. It also includes a visual chart that displays rating distribution (star-wise). The app description is partially shown (first 100 words) with a “See More” option to expand and view the full content. When a user clicks the **“Install Now”** button, the app gets installed, the button becomes disabled, and the text changes to **“Installed”**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- The **Apps page** displays a collection of 32 apps. Users can click on any app to navigate to the same App Details section. It also includes a dynamic search feature—results update instantly based on user input. If no app is found, a warning message is shown along with a clear button to reset the search. The total app count updates in real time based on search results, and shows 0 when no apps are found.
 
-## Expanding the ESLint configuration
+- The **Installation page** allows users to manage installed apps. Users can sort apps based on downloads, uninstall them, and view their installed apps list. All installation data is stored in local storage, ensuring persistence even after page reload.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Additional features include:
+- Proper handling of invalid routes with a custom 404 page  
+- “App Not Found” page for invalid app details  
+- Error handling for developer-side issues with a dedicated error display page  
+- A header with logo (redirects to home), navigation links (Home, Apps, Installation) with active route indication, and a contribution button linking to GitHub  
+- A custom footer  
+- Fully responsive design for all devices  
+
+## Technologies
+- HTML  
+- CSS  
+- Tailwind CSS  
+- DaisyUI  
+- JavaScript (ES6)  
+- React  
+- React Router  
+- Firebase  
+- Recharts  
+- Local Storage  
