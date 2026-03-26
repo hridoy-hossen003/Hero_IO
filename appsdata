@@ -1,10 +1,11 @@
 [
+
   {
-    "image": "https://api.dicebear.com/8.x/icons/png?seed=BrainBoost&backgroundColor=f59e0b,3b82f6",
+    "image": "https://i.ibb.co.com/hxknydX6/demo-app-2.webp",
     "title": "BrainBoost",
     "companyName": "Hero Apps",
     "id": 21,
-    "description": "BrainBoost is a powerful cognitive training application designed to improve your mental performance through engaging and structured exercises. It offers a wide range of activities focused on memory enhancement, logical reasoning, problem-solving, and attention span. Each task is carefully crafted to challenge your brain while adapting to your skill level over time. Whether you are preparing for exams, improving workplace productivity, or simply keeping your mind active, BrainBoost provides consistent daily challenges to support your goals. The app also tracks your progress and provides insights into your improvement, helping you stay motivated. Its clean interface and interactive approach make learning both effective and enjoyable for users of all ages.",
+    "description": "Daily brain exercises and cognitive challenges designed to improve memory, focus, and overall mental agility in a structured and engaging way. This app provides a wide range of scientifically inspired activities including puzzles, logic games, pattern recognition tasks, and problem-solving exercises that adapt to the user’s skill level. Users can track their progress over time with detailed analytics, helping them understand their cognitive strengths and areas that need improvement. The app encourages consistency by offering daily challenges, streak tracking, and motivational reminders to keep users engaged. It also includes short training sessions that can be completed in just a few minutes, making it suitable for busy schedules. Whether you are a student aiming to sharpen your thinking skills, a professional wanting better focus, or someone interested in maintaining brain health, this app provides an enjoyable and effective way to keep your mind active and continuously improving every day.",
     "size": 25,
     "reviews": 850,
     "ratingAvg": 4.4,
@@ -18,11 +19,11 @@
     ]
   },
   {
-    "image": "https://api.dicebear.com/8.x/icons/png?seed=HealthyEats&backgroundColor=16a34a,22c55e",
+    "image": "https://i.ibb.co.com/svFdkHHq/demo-app-1.webp",
     "title": "HealthyEats",
     "companyName": "Hero Apps",
     "id": 22,
-    "description": "HealthyEats is a comprehensive nutrition and meal tracking application that helps users maintain a balanced and healthy lifestyle. It allows you to log your daily meals, monitor calorie intake, and analyze nutritional values such as proteins, carbohydrates, and fats. The app provides personalized suggestions based on your dietary goals, whether you want to lose weight, gain muscle, or simply eat healthier. With an easy-to-use interface and a large food database, tracking meals becomes quick and convenient. HealthyEats also includes reminders, progress reports, and goal-setting features that help users stay consistent. It is ideal for anyone looking to build sustainable eating habits and improve overall well-being.",
+    "description": "Track meals, calories, and nutrition effortlessly with this comprehensive health and diet management application designed for everyday use. The app allows users to log their meals quickly, calculate calorie intake, and monitor essential nutrients such as protein, carbohydrates, and fats. It includes a large food database with accurate nutritional information, making it easy to stay informed about eating habits. Users can set personalized goals, whether it is weight loss, muscle gain, or maintaining a balanced diet, and receive insights based on their progress. The app also offers reminders, meal suggestions, and hydration tracking to support a healthier lifestyle. With visual charts and reports, users can clearly see their improvements over time. Ideal for fitness enthusiasts, beginners, and anyone looking to build better eating habits, this app simplifies nutrition tracking and helps maintain a consistent and healthy routine without unnecessary complexity.",
     "size": 28,
     "reviews": 1100,
     "ratingAvg": 4.5,
@@ -36,11 +37,11 @@
     ]
   },
   {
-    "image": "https://api.dicebear.com/8.x/icons/png?seed=GoalTracker&backgroundColor=ef4444,f97316",
+    "image": "https://i.ibb.co.com/7JcNYHZY/demo-app-3.webp",
     "title": "GoalTracker",
     "companyName": "Hero Apps",
     "id": 23,
-    "description": "GoalTracker is a productivity-focused application designed to help users set, manage, and achieve both personal and professional goals efficiently. The app allows you to break down large objectives into smaller, manageable tasks, making progress more structured and less overwhelming. With features like deadline reminders, milestone tracking, and performance analytics, users can stay organized and motivated throughout their journey. GoalTracker also offers visual progress indicators and habit-building tools that reinforce consistency. Whether you are working on career development, fitness goals, or personal growth, the app provides a clear roadmap to success. Its user-friendly interface ensures that goal setting becomes a practical and rewarding experience.",
+    "description": "Set and track personal and professional goals efficiently using this powerful and easy-to-use goal management application. The app helps users break down large goals into smaller, achievable tasks, making progress more structured and less overwhelming. It includes features like deadlines, reminders, and milestone tracking to ensure users stay on track. With detailed progress visualization, users can monitor their achievements and identify areas that need improvement. The app also encourages consistency through habit tracking and motivational notifications. Whether you are working on career development, academic success, fitness targets, or personal growth, this app provides the tools needed to stay focused and organized. Its clean interface and flexible system make it suitable for all types of users who want to build discipline and achieve their long-term objectives effectively over time.",
     "size": 32,
     "reviews": 1250,
     "ratingAvg": 4.6,
@@ -54,11 +55,11 @@
     ]
   },
   {
-    "image": "https://api.dicebear.com/8.x/icons/png?seed=MusicMood&backgroundColor=f472b6,9333ea",
+    "image": "https://i.ibb.co.com/7JJQM5Gc/demo-app-4.webp",
     "title": "MusicMood",
     "companyName": "Hero Apps",
     "id": 24,
-    "description": "MusicMood is an intelligent music streaming application that creates personalized playlists based on your current mood and preferences. By analyzing your listening habits and mood selections, the app delivers songs that match your emotions, whether you are feeling energetic, relaxed, or focused. It includes curated playlists, genre-based collections, and daily recommendations that keep your music experience fresh and engaging. MusicMood also allows users to create custom playlists and share them with friends. The smooth interface and smart recommendation system make it easy to discover new artists and tracks. It is perfect for users who want a more personalized and emotionally connected music experience.",
+    "description": "Personalized music playlists based on your mood, designed to enhance your listening experience and match your emotions perfectly throughout the day. This app analyzes user preferences and listening habits to create playlists that align with different moods such as relaxation, focus, energy, or sadness. It allows users to explore new songs and artists while maintaining a balance between familiar favorites and fresh recommendations. The app also includes curated playlists for specific activities like studying, working out, or unwinding after a long day. With a simple and engaging interface, users can quickly switch between moods and discover music that fits their current state of mind. Whether you want to relax, stay motivated, or boost your energy, this app ensures that the right music is always available at the right moment, making every listening session more meaningful and enjoyable.",
     "size": 30,
     "reviews": 980,
     "ratingAvg": 4.4,
@@ -72,11 +73,11 @@
     ]
   },
   {
-    "image": "https://api.dicebear.com/8.x/icons/png?seed=QuickScan&backgroundColor=10b981,fbbf24",
+    "image": "https://i.ibb.co.com/DHHMW05W/demo-app-5.webp",
     "title": "QuickScan",
     "companyName": "Hero Apps",
     "id": 25,
-    "description": "QuickScan is a fast and reliable scanning application designed to simplify document management and QR code scanning. With its advanced camera integration, users can quickly scan documents, receipts, and codes with high accuracy and clarity. The app automatically enhances scanned images, ensuring they are readable and professional-looking. It also supports exporting files in multiple formats such as PDF and image files for easy sharing and storage. QuickScan includes features like batch scanning, cloud storage integration, and secure file handling to protect user data. Whether for personal use or professional tasks, it provides a convenient and efficient solution for managing scanned content.",
+    "description": "Scan documents and QR codes quickly and securely using this fast and reliable scanning application built for everyday convenience. The app allows users to capture high-quality scans of documents, receipts, notes, and more, converting them into digital formats for easy storage and sharing. It includes features like automatic edge detection, image enhancement, and file organization to ensure clear and professional results. Users can also scan QR codes instantly to access links, information, or services without delay. The app supports multiple file formats and provides options for cloud backup and sharing. Designed with simplicity in mind, it ensures a smooth and efficient scanning experience for both personal and professional use. Whether you need to digitize documents or quickly access QR-based content, this app delivers speed, accuracy, and reliability in one compact solution.",
     "size": 22,
     "reviews": 870,
     "ratingAvg": 4.3,
@@ -90,11 +91,11 @@
     ]
   },
   {
-    "image": "https://api.dicebear.com/8.x/icons/png?seed=SleepWell&backgroundColor=38bdf8,6366f1",
+    "image": "https://i.ibb.co.com/hPRRsrv/demo-app-6.webp",
     "title": "SleepWell",
     "companyName": "Hero Apps",
     "id": 26,
-    "description": "SleepWell is a wellness application focused on improving sleep quality through guided programs and relaxation techniques. It offers a range of features including sleep tracking, calming audio sessions, and personalized sleep schedules that help users build healthier sleeping habits. The app analyzes your sleep patterns and provides actionable insights to improve rest and recovery. With soothing sounds, meditation exercises, and bedtime reminders, SleepWell creates an ideal environment for better sleep. It is suitable for individuals struggling with insomnia or irregular sleep cycles, as well as those who simply want to enhance their overall well-being. The intuitive design makes it easy to integrate into daily routines.",
+    "description": "Improve sleep quality with guided sleep programs designed to help users relax, unwind, and build healthier sleep habits over time. This app offers calming audio sessions, breathing exercises, and sleep tracking features to support better rest. Users can monitor their sleep patterns and gain insights into their nightly routines, helping them identify what affects their sleep quality. The app also includes customizable bedtime reminders and relaxing soundscapes such as rain, ocean waves, and ambient music to create a peaceful environment. Whether you struggle with falling asleep or maintaining a consistent sleep schedule, this app provides practical tools to improve overall well-being. Suitable for all ages, it encourages a balanced lifestyle by promoting restful sleep and reducing stress through simple and effective daily practices.",
     "size": 28,
     "reviews": 900,
     "ratingAvg": 4.4,
@@ -108,11 +109,11 @@
     ]
   },
   {
-    "image": "https://api.dicebear.com/8.x/icons/png?seed=TravelBuddy&backgroundColor=9333ea,ec4899",
+    "image": "https://i.ibb.co.com/xtjdxw9F/trable.png",
     "title": "TravelBuddy",
     "companyName": "Hero Apps",
     "id": 27,
-    "description": "TravelBuddy is a smart travel companion application that helps users explore new destinations with ease and confidence. It provides detailed information about attractions, restaurants, and local events, allowing travelers to plan their trips effectively. The app includes interactive maps, personalized recommendations, and itinerary planning tools that simplify the travel experience. Users can also discover hidden gems and popular spots based on real-time data and reviews. TravelBuddy supports offline access to important information, making it reliable even without internet connectivity. Whether you are planning a short trip or a long vacation, it ensures a smooth and enjoyable journey from start to finish.",
+    "description": "Discover attractions, restaurants, and local events while traveling with this smart and user-friendly travel companion app. It provides personalized recommendations based on your location and preferences, helping you explore new places with confidence. Users can browse popular destinations, read reviews, and create customized travel plans with ease. The app also includes maps, directions, and offline access features to ensure smooth navigation even without internet connectivity. Whether you are planning a short trip or a long vacation, this app helps you stay organized and informed throughout your journey. It enhances your travel experience by making it easier to find hidden gems, local experiences, and essential services, ensuring that every trip becomes more enjoyable and memorable.",
     "size": 34,
     "reviews": 1150,
     "ratingAvg": 4.5,
@@ -126,11 +127,11 @@
     ]
   },
   {
-    "image": "https://api.dicebear.com/8.x/icons/png?seed=PhotoFix&backgroundColor=facc15,f97316",
+    "image": "https://i.ibb.co.com/nqpPDpHN/fix-photo.jpg",
     "title": "PhotoFix",
     "companyName": "Hero Apps",
     "id": 28,
-    "description": "PhotoFix is an advanced photo editing application designed for users who want professional-quality results with minimal effort. It offers a wide range of editing tools, including filters, retouching features, color correction, and enhancement options that allow users to transform their images بسهولة. The app supports high-resolution editing and provides real-time previews to ensure precise adjustments. Whether you are editing portraits, landscapes, or social media content, PhotoFix delivers powerful tools in an easy-to-use interface. It also includes AI-powered enhancements that automatically improve image quality. Ideal for both beginners and experienced users, PhotoFix makes photo editing efficient, creative, and enjoyable.",
+    "description": "Advanced photo retouching and filter tools designed to give users professional-quality editing capabilities directly from their devices. This app offers a wide range of editing features including color correction, brightness adjustment, cropping, and advanced retouching tools for detailed enhancements. Users can apply creative filters, effects, and presets to transform their photos instantly. It also includes tools for removing unwanted objects, smoothing skin, and enhancing image clarity. The intuitive interface makes it easy for beginners to edit photos while still providing powerful options for advanced users. Whether you are editing casual photos or working on professional content, this app ensures high-quality results with minimal effort. Perfect for photographers, social media users, and creative individuals looking to enhance their visuals effortlessly.",
     "size": 40,
     "reviews": 1800,
     "ratingAvg": 4.7,
@@ -142,7 +143,8 @@
       { "name": "4 star", "count": 500 },
       { "name": "5 star", "count": 1110 }
     ]
-  },
+  }
+,
   {
     "image": "https://api.dicebear.com/8.x/icons/png?seed=TaskScheduler&backgroundColor=0ea5e9,22c55e",
     "title": "TaskScheduler",
