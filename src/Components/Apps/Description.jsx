@@ -18,7 +18,15 @@ const Description = ({ description }) => {
               className="ms-2 text-black font-semibold underline"
               onClick={() => setSeeMore(!seeMore)}
             >
-              {seeMore ? "see more" : "see less"}
+              {seeMore ? (
+                <span className=''>
+                  see more <i class="fa-solid  fa-caret-right text-xs"></i>
+                </span>
+              ) : (
+                <span>
+                  <i class="fa-solid fa-caret-left text-xs"></i> see less
+                </span>
+              )}
             </a>
           </span>
         </p>

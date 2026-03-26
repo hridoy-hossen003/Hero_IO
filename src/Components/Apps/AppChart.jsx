@@ -1,16 +1,47 @@
-import React from "react";
-import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
+import React, { useEffect, useState } from "react";
+import {
+  Bar,
+  BarChart,
+  Legend,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
 
 const AppChart = ({ ratings }) => {
+  // console.log(ratings);
+  const [rating, setRating] = useState([]);
+  console.log(rating);
+  useEffect(() => {
+    const newRatings = [...ratings].sort(
+      (a, b) => Number(b.name.charAt(0)) - Number(a.name.charAt(0)),
+    );
+    setRating(newRatings);
+  }, [ratings]);
+
   return (
     <div>
-      <ResponsiveContainer>
-      <BarChart layout="vertical"  data={ratings} width="100%" height="100%">
-        <YAxis type="category" dataKey='name'></YAxis>
-        <XAxis type="number"></XAxis>
-        <Bar fill="orange" barSize={30} dataKey="count"></Bar>
-      </BarChart>
-    </ResponsiveContainer>
+      <h2 className="text-2xl font-semibold">Ratings</h2>
+      <ResponsiveContainer md:width={1000} height={500}>
+        <BarChart layout="vertical" data={rating} width="100%" height="100%">
+          <Tooltip></Tooltip>
+          <Legend></Legend>
+          <YAxis
+            type="category"
+            dataKey="name"
+            axisLine={false}
+            tickLine={false}
+          ></YAxis>
+          <XAxis type="number" axisLine={false} tickLine={false}></XAxis>
+          <Bar
+            fill="orange"
+            barSize={50}
+            radius={[0, 20, 20, 0]}
+            dataKey="count"
+          ></Bar>
+        </BarChart>
+      </ResponsiveContainer>
     </div>
   );
 };

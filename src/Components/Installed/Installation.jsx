@@ -23,14 +23,14 @@ const Installation = () => {
 
   const handleHeigh = () => {
     const sorted = [...installedApps];
-    sorted.sort((a,b)=>b.size - a.size);
+    sorted.sort((a, b) => b.downloads - a.downloads);
     setInstalledApps(sorted)
     
   }
 
   const handleLow = () => {
     const sorted = [...installedApps]
-    sorted.sort((a,b) => a.size - b.size)
+    sorted.sort((a, b) => a.downloads - b.downloads);
     setInstalledApps(sorted)
   }
 

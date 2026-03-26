@@ -88,7 +88,7 @@ const Footer = () => {
 
       <footer className="footer flex md:flex-row flex-col-reverse items-center md:justify-between  bg-black text-white px-10 py-8">
         <aside className="grid-flow-col items-center">
-          <p className="lg:text-lg text-sm">© 2026 Hero.IO — All rights reserved</p>
+          <p className="md:text-lg text-sm">© 2026 Hero.IO — All rights reserved</p>
         </aside>
         <div>
           <nav className="md:place-self-center md:justify-self-end">

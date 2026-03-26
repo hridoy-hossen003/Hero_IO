@@ -161,7 +161,10 @@ const AppDetails = () => {
       {/* ------------------------------
           Chart Section
       ------------------------------ */}
-      <div><AppChart ratings={ratings} /></div>
+      <div>
+        <AppChart ratings={ratings} />
+
+        </div>
 
       {/* ------------------------------
           Description Section
