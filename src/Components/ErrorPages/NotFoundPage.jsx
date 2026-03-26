@@ -9,7 +9,7 @@ const NotFoundPage = () => {
     }
   return (
     <div className="bg-white py-10">
-      <div className="flex justify-center">
+      <div className="flex px-10 justify-center">
         <img src={notFound} alt="" />
       </div>
       <div className="grid space-y-3 justify-center items-end text-center">

@@ -22,19 +22,19 @@ const Apps = () => {
   }, []);
 
   return (
-    <div className="text-center py-15 space-y-3 max-w-340 mx-auto">
+    <div className="text-center md:py-15 py-10 space-y-3 max-w-340 mx-auto">
       <div className="grid justify-center gap-4">
-        <h1 className="text-5xl font-bold flex relative items-center justify-center gap-4">
+        <h1 className="md:text-5xl text-3xl font-bold flex relative items-center justify-center md:gap-4 gap-2">
           <span> Our All Applications</span>
-          <img src={appLogo} className="w-12" alt="" />
+          <img src={appLogo} className="md:w-12 w-9" alt="" />
         </h1>
-        <p className="text-lg text-gray-500 px-4">
+        <p className="md:text-lg text-gray-500 px-4">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
-      <div className="flex justify-between px-4">
+      <div className="md:flex space-y-4 justify-between px-4">
         <div>
-          <h2 className="text-2xl font-semibold">
+          <h2 className="text-xl md:text-2xl font-semibold">
             ({filteredData.length}) Apps Found
           </h2>
         </div>

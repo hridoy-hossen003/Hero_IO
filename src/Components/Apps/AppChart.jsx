@@ -1,14 +1,16 @@
 import React from "react";
-// import { Bar, BarChart } from "recharts";
-// import { Bar, BarChart } from "recharts";
+import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from "recharts";
 
 const AppChart = ({ ratings }) => {
-
   return (
     <div>
-  {/* <BarChart width={500} height={500} data={ratings}>
-        <Bar dataKey='count'></Bar>
-  </BarChart> */}
+      <ResponsiveContainer>
+      <BarChart layout="vertical"  data={ratings} width="100%" height="100%">
+        <YAxis type="category" dataKey='name'></YAxis>
+        <XAxis type="number"></XAxis>
+        <Bar fill="orange" barSize={30} dataKey="count"></Bar>
+      </BarChart>
+    </ResponsiveContainer>
     </div>
   );
 };

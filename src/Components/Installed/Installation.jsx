@@ -11,7 +11,7 @@ const Installation = () => {
   const apps = useLoaderData();
   const storageBox = getApps();
   const [isEmpty, setIsempty] = useState(Boolean(storageBox.length > 0));
-console.log(isEmpty);
+
   useEffect(() => {
     const storedApps = getApps();
    
@@ -20,14 +20,28 @@ console.log(isEmpty);
     setIsempty(filteredApps.length == 0)
   }, [apps , chengeDep]);
 
+
+  const handleHeigh = () => {
+    const sorted = [...installedApps];
+    sorted.sort((a,b)=>b.size - a.size);
+    setInstalledApps(sorted)
+    
+  }
+
+  const handleLow = () => {
+    const sorted = [...installedApps]
+    sorted.sort((a,b) => a.size - b.size)
+    setInstalledApps(sorted)
+  }
+
   return (
     <div className="max-w-340 mx-auto">
-      <div className="text-center space-y-4 pt-20 pb-6">
-        <h2 className="text-5xl font-bold flex justify-center items-center">
+      <div className="text-center space-y-4 md:pt-20 pt-6 pb-6">
+        <h2 className="md:text-5xl text-3xl font-bold flex justify-center items-center">
           <span>Your Installed Apps</span>
-          <img className="w-16" src={dropbox} alt="" />
+          <img className="md:w-16 w-10" src={dropbox} alt="" />
         </h2>
-        <p className="text-gray-500 text-lg">
+        <p className="text-gray-500 md:text-lg px-4">
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
@@ -36,13 +50,18 @@ console.log(isEmpty);
         <div>
           <div className="flex flex-col py-4">
             <div className="flex justify-center">
-              <img src={warning} className="w-6/12" alt="" srcset="" />
+              <img
+                src={warning}
+                className="md:w-6/12 w-10/12"
+                alt=""
+                srcset=""
+              />
             </div>
-            <div className="grid justify-start">
-              <h2 className="text-3xl font-bold mt-4">
-                No Installed Apps Found
+            <div className="grid md:justify-start ">
+              <h2 className="md:text-3xl text-2xl md:text-start text-center font-semibold mt-4">
+                No Apps Installed
               </h2>
-              <p className="text-gray-500 mt-2">
+              <p className="text-gray-500 md:text-start text-center mt-2">
                 You haven’t installed any apps yet. Browse the marketplace and
                 add your favorite apps to get started.
               </p>
@@ -51,8 +70,10 @@ console.log(isEmpty);
         </div>
       ) : (
         <div className="py-4">
-          <div className="py-2 flex justify-between">
-            <div className="text-2xl font-semibold">Apps Found</div>
+          <div className="py-2 flex justify-between items-center px-2">
+            <div className="md:text-2xl text-xl font-semibold">
+              ({installedApps.length}) Apps Found
+            </div>
             <div>
               <div className="dropdown dropdown-bottom dropdown-center">
                 <div tabIndex={0} role="button" className="btn m-1">
@@ -64,10 +85,10 @@ console.log(isEmpty);
                   className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
                 >
                   <li>
-                    <a>Item 1</a>
+                    <a onClick={handleHeigh}>Heigh to Low</a>
                   </li>
                   <li>
-                    <a>Item 2</a>
+                    <a onClick={handleLow}>Low to Heigh</a>
                   </li>
                 </ul>
               </div>
