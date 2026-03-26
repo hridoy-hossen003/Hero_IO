@@ -11,8 +11,8 @@ The application includes three main sections: **Home**, **Apps**, and **Installa
 
 - The **Apps page** displays a collection of 32 apps. Users can click on any app to navigate to the same App Details section. It also includes a dynamic search feature—results update instantly based on user input. If no app is found, a warning message is shown along with a clear button to reset the search. The total app count updates in real time based on search results, and shows 0 when no apps are found.
 
-- The **Installation page** allows users to manage installed apps. Users can sort apps based on downloads, uninstall them, and view their installed apps list. All installation data is stored in local storage, ensuring persistence even after page reload.
-
+- The **Installation page** allows users to manage installed apps. Users can sort apps based on downloads, uninstall them, and view their installed apps list. All installation data is stored in local storage, ensuring persistence even after page reload. if users uninstall all apps they intalled they see a warning page showing warning to install apps.
+ 
 Additional features include:
 - Proper handling of invalid routes with a custom 404 page  
 - “App Not Found” page for invalid app details  
