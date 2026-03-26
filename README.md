@@ -28,7 +28,6 @@ Additional features include:
 - DaisyUI  
 - JavaScript (ES6)  
 - React  
-- React Router  
-- Firebase  
+- React Router
 - Recharts  
 - Local Storage  
